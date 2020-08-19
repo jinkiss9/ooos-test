@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+      position: relative;
+      height: 100%;
+    }
+
+html {
+	font-size : 16px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	margin:  0;
+}
+
+.korea-main-navi {
+	
+}
+
+.korea-main-navi-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.korea-logo {
+	padding-top: .8rem;
+	padding-left: 1rem;
+	flex-basis: auto;
+	border : 1px dotted black;
+}
+
+.korea-navi-letter a {
+	text-decoration: none;
+	color : white;
+	width: 100%;
+	font-weight: bold;
+	
+}
+
+.mainnav1 {
+
+	font-family: source-han-serif-korean;
+	font-size: 2rem;
+}
+
+.mainnav2 {
+
+	font-family: marydale;
+	font-size: 2rem;
+}
+
+.mainnav3 {
+
+	font-family: ro-san-std;
+	font-size: 2rem;
+}
+
+
+.korea-navi-letter {
+	display: flex;
+	vertical-align: middle;
+	font-size: 1.6rem;
+	align-items: center;
+	border : 1px dotted blue;
+	flex-basis: 65rem;
+}
+
+.korea-navi-image {
+	display: flex;
+	padding-right: 2rem;
+	align-items: center;
+	border : 1px dotted red;
+}
+
+.korea-navi-image-1 {
+	margin-right: 2rem;
+}
+
+.korea-navi-image-2 {
+	margin-right: 2rem;
+}
+
+.korea-filmlogotext {
+	font-size: 6rem;
+	font-family: source-han-serif-korean;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	padding-top: 14.7%;
+	padding-bottom: 22.7%;
+	/*background-color: aquamarine;*/
+}
+
+.korea-mainvideo-frame {
+	height:auto;
+	display:flex;
+	align-items:center;
+	color:#fff;
+}
+
+.korea-fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  /*width:100%;
+  height:100vh;*/
+  overflow:hidden;
+}
+
+.korea-video-overlay {
+	width: 100%;
+	padding-top: 56.25%;
+	background-color: #225470;
+	opacity: 0.5;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.korea-header-content{
+	z-index:2;
+	text-align: center;
+	width: 100%;
+	top:0;
+	position: relative;
+}
